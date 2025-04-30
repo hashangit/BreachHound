@@ -1,0 +1,21 @@
+# Source files
+src/
+test/
+
+# Config files
+.env
+.env.example
+.gitignore
+.npmignore
+tsconfig.json
+jest.config.js
+
+# Build artifacts/cache
+*.tsbuildinfo
+node_modules/
+*.tgz
+*.log
+
+# IDE/OS specific
+.vscode/
+.DS_Store

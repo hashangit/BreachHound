@@ -1,0 +1,60 @@
+{
+  "name": "@your-npm-username/breachhound",
+  "version": "1.0.0",
+  "description": "An efficient OSINT tool for uncovering digital footprints associated with a username. TypeScript port of GoSearch.",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "bin": {
+    "breachhound": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli/index.js",
+    "dev": "ts-node src/cli/index.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "test-app": "ts-node test/interactive-test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "keywords": [
+    "osint",
+    "username",
+    "search",
+    "security",
+    "reconnaissance",
+    "gosearch"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME#readme",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "chalk": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/yargs": "^17.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
