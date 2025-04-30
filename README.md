@@ -36,21 +36,21 @@ BreachHound is a **TypeScript port** of the excellent Go-based tool **[GoSearch]
 
 **Install Globally:**
 ```bash
-npm install -g @your-npm-username/breachhound
+npm install -g @hashangit/breachhound
 ```
 Now you can run `breachhound` from anywhere.
 
 **OR Run Directly with npx (No Installation Needed):**
 ```bash
 # Replace @your-npm-username with your actual npm scope or desired package name
-npx @your-npm-username/breachhound -u <username> [options]
+npx @hashangit/breachhound -u <username> [options]
 ```
 
 ### Integrating as a Library
 
 ```bash
 # Replace @your-npm-username with your actual npm scope or desired package name
-npm install @your-npm-username/breachhound
+npm install @hashangit/breachhound
 # or
 yarn add @your-npm-username/breachhound
 ```
@@ -90,7 +90,7 @@ breachhound -u testuser --no-false-positives
 
 ```typescript
 // Replace @your-npm-username with your actual npm scope or desired package name
-import { runChecks, BreachHoundConfig } from '@your-npm-username/breachhound';
+import { runChecks, BreachHoundConfig } from '@hashangit/breachhound';
 
 async function findUser(username: string) {
   console.log(`Starting checks for: ${username}`);

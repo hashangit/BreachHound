@@ -1,6 +1,6 @@
 {
-  "name": "@your-npm-username/breachhound",
-  "version": "1.0.0",
+  "name": "@hashangit/breachhound",
+  "version": "1.0.1",
   "description": "An efficient OSINT tool for uncovering digital footprints associated with a username. TypeScript port of GoSearch.",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git"
+    "url": "git+https://github.com/hashangit/BreachHound.git"
   },
   "keywords": [
     "osint",
@@ -37,9 +37,9 @@
   "author": "Your Name <your.email@example.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues"
+    "url": "https://github.com/hashangit/BreachHound/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME#readme",
+  "homepage": "https://github.com/hashangit/BreachHound#readme",
   "dependencies": {
     "axios": "^1.0.0",
     "chalk": "^5.0.0",
